@@ -11,10 +11,10 @@ export default function Home() {
   useEffect(() => setData(projectData), [])
 
   return (
-    <main>
+    <>
       <Header />
       <Links />
       <Projects projects={data} />
-    </main>
+    </>
   )
 }
