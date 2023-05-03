@@ -1,4 +1,4 @@
-import Projects from './components/Projects'
+import Projects from '../components/Projects'
 import projectData from '../public/projectData.json'
 import { useEffect, useState } from 'react'
 import { Project } from '@/common/models'

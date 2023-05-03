@@ -1,5 +1,5 @@
-import Header from './components/Header'
-import Links from './components/Links'
+import Header from '../components/Header'
+import Links from '../components/Links'
 import projectData from '../public/projectData.json'
 import { useEffect, useState } from 'react'
 import { Project } from '@/common/models'

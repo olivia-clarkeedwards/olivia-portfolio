@@ -1,6 +1,6 @@
 import SingleProject from './SingleProject'
 
-import { Project } from './../../common/models'
+import { Project } from '../common/models'
 import { useEffect, useState } from 'react'
 
 interface Props {

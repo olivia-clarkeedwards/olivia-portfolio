@@ -1,5 +1,5 @@
 import { ReactHTMLElement, useEffect, useState } from 'react'
-import { Project } from '../../common/models'
+import { Project } from '../common/models'
 import Image from 'next/image'
 
 interface Props {
