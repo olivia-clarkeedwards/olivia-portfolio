@@ -11,7 +11,7 @@ export default function Home() {
   useEffect(() => setData(projectData), [])
 
   return (
-    <main className="text-center">
+    <main className="text-center bg-white text-slate-800">
       <Header />
       <Links />
       <Projects projects={data} />
