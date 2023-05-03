@@ -1,9 +1,11 @@
 function Header() {
   return (
     <>
-      <header className="header font-sans">
-        <h1 className="text-lg">Olivia Clarke-Edwards</h1>
-        <h2>Portfolio</h2>
+      <header className="block">
+        <h1 className="text-lg text-xl">
+          OLIVIA <span className="font-thin">CLARKE-EDWARDS</span>
+        </h1>
+        <h2 className="font-medium">FULL STACK SOFTWARE DEVELOPER</h2>
       </header>
     </>
   )

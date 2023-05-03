@@ -4,21 +4,28 @@ import type { AppProps } from 'next/app'
 import { Lexend, Roboto } from 'next/font/google'
 
 const lexend = Lexend({ subsets: ['latin'], variable: '--font-lexend' })
-const roboto100 = Roboto({
+const roboto = Roboto({
   subsets: ['latin'],
-  weight: '100',
-  variable: '--font-roboto100',
-})
-const roboto700 = Roboto({
-  subsets: ['latin'],
-  weight: '700',
-  variable: '--font-roboto700',
+  weight: ['100', '700'],
+  variable: '--font-roboto',
 })
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
-    <main className={`${lexend.variable} font-sans`}>
+    <>
+      <style jsx global>{`
+        html {
+          font-family: ${lexend.style.fontFamily};
+          font-weight: 100;
+        }
+        h1,
+        h2,
+        h3 {
+          font-family: ${roboto.style.fontFamily};
+          font-weight: 700;
+        }
+      `}</style>
       <Component {...pageProps} />
-    </main>
+    </>
   )
 }
