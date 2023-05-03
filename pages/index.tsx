@@ -11,7 +11,7 @@ export default function Home() {
 
   return (
     <main className="text-center min-h-screen bg-slate-800 relative">
-      <div className="flex flex-col m-auto min-h-screen pt-36">
+      <div className="flex flex-col m-auto min-h-screen pt-20 items-center">
         <Header />
         <Links />
       </div>
