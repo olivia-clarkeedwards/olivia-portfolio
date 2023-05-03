@@ -16,7 +16,7 @@ function Projects({ projects }: Props) {
 
   return (
     <>
-      {allProjects.map((project: Project) => (
+      {allProjects?.map((project: Project) => (
         <SingleProject project={project} key={project.date + project.title} />
       ))}
     </>
