@@ -9,7 +9,7 @@ interface Props {
 function Projects({ projects }: Props) {
   return (
     <>
-      {projects.map((project) => (
+      {projects.map((project: Project) => (
         <SingleProject project={project} key={project.date + project.title} />
       ))}
     </>
