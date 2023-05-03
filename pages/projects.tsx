@@ -8,5 +8,9 @@ export default function ProjectPage() {
 
   useEffect(() => setData(projectData), [])
 
-  return <Projects projects={data} />
+  return (
+    <section className="bg-slate-800">
+      <Projects projects={data} />
+    </section>
+  )
 }

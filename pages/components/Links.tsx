@@ -9,9 +9,9 @@ function Links() {
     <div className="bg-slate-800 text-zinc-50 p-4">
       <Contact />
       <Socials />
-      <Link className="flex" href="/projects">
+      <Link className="flex justify-center items-center" href="/projects">
         <RxDoubleArrowRight color="zinc-500" />
-        <p>View projects</p>
+        <p className="ml-2">View projects</p>
       </Link>
     </div>
   )

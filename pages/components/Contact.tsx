@@ -3,7 +3,7 @@ import { MdLocationCity, MdEmail } from 'react-icons/md'
 
 function Contact() {
   return (
-    <div className="w-full flex justify-center mb-4">
+    <div className="w-full flex justify-center content-center mb-4">
       <div className="flex-col">
         <a className="flex p-1" target="_blank" href="tel:+64225893872">
           <FaPhoneSquareAlt size="30" color="zinc-500" />
