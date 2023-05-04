@@ -20,7 +20,9 @@ function SingleProject({ project }: Props) {
         <h3>{project?.title}</h3>
         {project?.role && <h2 className="font-medium">{project.role}</h2>}
         {project?.description?.map((par: string) => (
-          <p key={project?.title + par}>{par}</p>
+          <p className="p-2" key={project?.title + par}>
+            {par}
+          </p>
         ))}
       </section>
     </>

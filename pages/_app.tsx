@@ -6,7 +6,7 @@ import { Lexend, Roboto } from 'next/font/google'
 const lexend = Lexend({ subsets: ['latin'], variable: '--font-lexend' })
 const roboto = Roboto({
   subsets: ['latin'],
-  weight: ['100', '700'],
+  weight: ['100', '300', '400', '500', '700', '900'],
   variable: '--font-roboto',
 })
 
@@ -22,7 +22,7 @@ export default function App({ Component, pageProps }: AppProps) {
         h2,
         h3 {
           font-family: ${roboto.style.fontFamily};
-          font-weight: 700;
+          font-weight: 100 | 200 | 700;
         }
       `}</style>
       <Component {...pageProps} />
