@@ -10,8 +10,8 @@ export default function Home() {
   useEffect(() => setData(projectData), [])
 
   return (
-    <main className="text-center min-h-screen bg-slate-800 relative">
-      <div className="flex flex-col m-auto min-h-screen pt-20 items-center">
+    <main className="min-h-screen bg-slate-800 relative text-center justify-items">
+      <div className=" flex flex-col m-auto min-h-screen pt-[10vh] items-center">
         <Header />
         <Links />
       </div>
