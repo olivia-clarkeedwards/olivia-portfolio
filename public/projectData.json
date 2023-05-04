@@ -12,7 +12,7 @@
    "softSkills": ["decision making", "teamwork", "leadership", "product management", "conflict resolution", "working to deadline", "prioritising"],
     "conceptualLearning": ["many-to-many relationships", "google APIs", "styling in react native", "using props with components"],
     "tech": ["TypeScript", "Node.js", "React Native", "Expo", "Superagent", "RESTful APIs", "GooglePlacesAPI", "Express", "Sqlite3 with Knex", "Supertest", "Jest", "Dokku" ]
-  },
+  ,  "link": "https://github.com/olivia-clarkeedwards/pingpong"},
   {
     "title": "SHOW ME THE MONEY",
     "date": "April 2023",
@@ -22,7 +22,8 @@
     "challenges": ["The biggest challenge that I faced was keeping momentum when working solo on the backend team."],
     "softSkills":["leadership", "communication", "Agile methodologies", "team management", "self-direction"],
     "conceptualLearning":["many-to-many relationships", "data structures"],
-    "tech": ["TypeScript", "Sqlite3 with Knex", "Express", "RESTful APIs"]
+    "tech": ["TypeScript", "Sqlite3 with Knex", "Express", "RESTful APIs"],
+    "link": "https://github.com/olivia-clarkeedwards/show-me-the-money"
   },
   {
     "title": "A NOT-SO-LONELY CHRISTMAS",
@@ -33,6 +34,7 @@
     "challenges": [""],
     "softSkills": ["communication", "teamwork"],
     "conceptualLearning":[],
-    "tech": ["Express", "Express Handlebars", "Sqlite3 with Knex", "Jest", "nodemon"]
+    "tech": ["Express", "Express Handlebars", "Sqlite3 with Knex", "Jest", "nodemon"],
+    "link": "https://github.com/olivia-clarkeedwards/not-lonely-xmas"
   }
 ]

@@ -12,4 +12,5 @@ export interface Project {
   softSkills: string[]
   conceptualLearning: string[]
   tech: string[]
+  link: string
 }
