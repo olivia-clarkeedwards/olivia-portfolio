@@ -7,7 +7,9 @@ export interface Project {
   date: string
   role: string
   tagline: string
-  description: string[]
-  learning: string[]
+  about: string[]
+  challenges: string[]
+  softSkills: string[]
+  conceptualLearning: string[]
   tech: string[]
 }

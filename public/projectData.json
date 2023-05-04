@@ -1,6 +1,6 @@
 [
   {
-    "title": "PingPong (Full Stack)",
+    "title": "PingPong",
     "date": "April 2023",
     "role": "Product Owner",
     "tagline": "PingPong is a modern pager app designed to kill your group chat and connect in real life.",
@@ -14,21 +14,25 @@
     "tech": ["TypeScript", "Node.js", "React Native", "Expo", "Superagent", "RESTful APIs", "GooglePlacesAPI", "Express", "Sqlite3 with Knex", "Supertest", "Jest", "Dokku" ]
   },
   {
-    "title": "Show Me The Money (Backend)",
+    "title": "Show Me The Money",
     "date": "April 2023",
     "role": "Backend Lead",
     "tagline": "make your meetings count",
-    "description": ["Our penultimate group project at Dev Academy, Show Me The Money, gave us the challenge of using Agile methodologies to work with a team of ten in fulfilling a predefined brief."],
-    "learning": [""],
+    "about": ["Our penultimate group project at Dev Academy, Show Me The Money, gave us the challenge of using Agile methodologies to work with a team of ten in fulfilling a predefined brief."],
+    "challenges": ["The biggest challenge that I faced was keeping momentum when working solo on the backend team."],
+    "softSkills":["leadership", "communication", "Agile methodologies", "team management", "self-direction"],
+    "conceptualLearning":["many-to-many relationships", "data structures"],
     "tech": ["TypeScript", "Sqlite3 with Knex", "Express", "RESTful APIs"]
   },
   {
-    "title": "A Not-So-Lonely Christmas (Full Stack)",
+    "title": "A Not-So-Lonely Christmas",
     "date": "March 2023",
     "role": "Full Stack Developer",
     "tagline": "creating christmas connections",
-    "description": ["A Not-So-Lonely Christmas is a simple CRUD app that connects families who have a spare seat at the table with individuals who don't a place to celebrate their Christmas day."],
-    "learning": [""],
+    "about": ["A simple CRUD app that connects families and individuals to celebrate Christmas together."],
+    "challenges": [""],
+    "softSkills": [],
+    "conceptualLearning":[],
     "tech": ["Express", "Express Handlebars", "Sqlite3 with Knex", "Jest", "nodemon"]
   }
 ]
