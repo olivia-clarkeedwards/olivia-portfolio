@@ -43,7 +43,7 @@ function SingleProject({ project }: Props) {
         {project?.softSkills && (
           <>
             <h4 className="font-medium">Soft skills</h4>
-            <ul className="flex flex-row justify-center">
+            <ul className="flex flex-row flex-wrap justify-center">
               {project?.softSkills?.map((par: string) => (
                 <li className="p-2" key={project?.title + par}>
                   {par}
@@ -55,7 +55,7 @@ function SingleProject({ project }: Props) {
         {project?.conceptualLearning && (
           <>
             <h4 className="font-medium">Conceptual learning</h4>
-            <ul className="flex flex-row justify-center">
+            <ul className="flex flex-row flex-wrap justify-center">
               {project?.conceptualLearning?.map((par: string) => (
                 <li className="p-2" key={project?.title + par}>
                   {par}
@@ -67,7 +67,7 @@ function SingleProject({ project }: Props) {
         {project?.tech && (
           <>
             <h4 className="font-medium">Tech</h4>
-            <ul className="flex flex-row justify-center">
+            <ul className="flex flex-row justify-center flex-wrap">
               {project?.tech?.map((par: string) => (
                 <li className="p-2" key={project?.title + par}>
                   {par}
