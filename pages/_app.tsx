@@ -20,7 +20,8 @@ export default function App({ Component, pageProps }: AppProps) {
         }
         h1,
         h2,
-        h3 {
+        h3,
+        h4 {
           font-family: ${roboto.style.fontFamily};
           font-weight: 100 | 200 | 700;
         }

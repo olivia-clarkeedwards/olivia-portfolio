@@ -1,9 +1,9 @@
 [
   {
-    "title": "PingPong",
+    "title": "PINGPONG",
     "date": "April 2023",
     "role": "Product Owner",
-    "tagline": "PingPong is a modern pager app designed to kill your group chat and connect in real life.",
+    "tagline": "a modern pager app designed to kill your group chat and connect in real life.",
     "about": ["For our final group project at Dev Academy Aotearoa, we utilised Agile methodologies to build a modern pager app with a React Native SERN stack. Our social media app Pingpong provides a group notification system to facilitate real-life meetups.",
      "I originally pitched this concept as “BeerPing”. Inspired by the struggle to find a fellow Kiwi friend to share a celebratory beer in Melbourne, as of Jacinda Ardern’s 2017 election, I was driven to ask:", 
      "“How can I spend less time organising with friends to catch up, and more time actually catching up, especially when I want to do so spontaneously?”", "PingPong implements a group notification system that allows users to contact friends for spontaneous meetups.", 
@@ -14,10 +14,10 @@
     "tech": ["TypeScript", "Node.js", "React Native", "Expo", "Superagent", "RESTful APIs", "GooglePlacesAPI", "Express", "Sqlite3 with Knex", "Supertest", "Jest", "Dokku" ]
   },
   {
-    "title": "Show Me The Money",
+    "title": "SHOW ME THE MONEY",
     "date": "April 2023",
     "role": "Backend Lead",
-    "tagline": "make your meetings count",
+    "tagline": "start that timer and make your meetings count",
     "about": ["Our penultimate group project at Dev Academy, Show Me The Money, gave us the challenge of using Agile methodologies to work with a team of ten in fulfilling a predefined brief."],
     "challenges": ["The biggest challenge that I faced was keeping momentum when working solo on the backend team."],
     "softSkills":["leadership", "communication", "Agile methodologies", "team management", "self-direction"],
@@ -25,13 +25,13 @@
     "tech": ["TypeScript", "Sqlite3 with Knex", "Express", "RESTful APIs"]
   },
   {
-    "title": "A Not-So-Lonely Christmas",
+    "title": "A NOT-SO-LONELY CHRISTMAS",
     "date": "March 2023",
     "role": "Full Stack Developer",
     "tagline": "creating christmas connections",
     "about": ["A simple CRUD app that connects families and individuals to celebrate Christmas together."],
     "challenges": [""],
-    "softSkills": [],
+    "softSkills": ["communication", "teamwork"],
     "conceptualLearning":[],
     "tech": ["Express", "Express Handlebars", "Sqlite3 with Knex", "Jest", "nodemon"]
   }
