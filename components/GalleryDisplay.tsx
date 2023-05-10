@@ -15,11 +15,18 @@ function GalleryDisplay({ name, numberOfImages }: Props) {
   }
 
   return (
-    <Splide aria-label={`Image of the the project ${name}.`}>
+    <Splide
+      aria-label={`Image of the the project ${name}.`}
+      options={{
+        rewind: true,
+        rewindByDrag: true,
+        width: '50vw',
+      }}
+    >
       {countArray.map((index) => (
-        <SplideSlide key={`${name}${index}`}>
+        <SplideSlide key={`${name}${index}`} className="p-5">
           <Image
-            className="h-[40vh] w-auto"
+            className="max-h-[40vh] w-auto rounded-lg"
             src={`/projects/${name}/${name}-${index}.png`}
             alt={`Image ${index} from ${name}.`}
             width="1000"
