@@ -1,4 +1,6 @@
 import Image from 'next/image'
+import { Splide, SplideSlide } from '@splidejs/react-splide'
+import '@splidejs/splide/css'
 
 interface Props {
   name: string
@@ -13,18 +15,19 @@ function GalleryDisplay({ name, numberOfImages }: Props) {
   }
 
   return (
-    <>
+    <Splide aria-label={`Image of the the project ${name}.`}>
       {countArray.map((index) => (
-        <Image
-          className="h-[40vh] w-auto"
-          src={`/projects/${name}/${name}-${index}.png`}
-          alt={name}
-          width="1000"
-          height="1000"
-          key={`${name}${index}`}
-        />
+        <SplideSlide key={`${name}${index}`}>
+          <Image
+            className="h-[40vh] w-auto"
+            src={`/projects/${name}/${name}-${index}.png`}
+            alt={`Image ${index} from ${name}.`}
+            width="1000"
+            height="1000"
+          />
+        </SplideSlide>
       ))}
-    </>
+    </Splide>
   )
 }
 
