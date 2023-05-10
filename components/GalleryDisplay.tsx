@@ -15,26 +15,44 @@ function GalleryDisplay({ name, numberOfImages }: Props) {
   }
 
   return (
-    <Splide
-      aria-label={`Image of the the project ${name}.`}
-      options={{
-        rewind: true,
-        rewindByDrag: true,
-        width: '50vw',
-      }}
-    >
-      {countArray.map((index) => (
-        <SplideSlide key={`${name}${index}`} className="p-5">
-          <Image
-            className="max-h-[40vh] w-auto rounded-lg"
-            src={`/projects/${name}/${name}-${index}.png`}
-            alt={`Image ${index} from ${name}.`}
-            width="1000"
-            height="1000"
-          />
-        </SplideSlide>
-      ))}
-    </Splide>
+    <>
+      {countArray.length === 1 ? (
+        <Image
+          className="h-[40vh] w-auto rounded-lg"
+          src={`/projects/${name}/${name}-1.png`}
+          alt={`Image from ${name}.`}
+          width="1000"
+          height="1000"
+        />
+      ) : (
+        <Splide
+          aria-label={`Image of the the project ${name}.`}
+          options={{
+            rewind: true,
+            rewindByDrag: true,
+            perPage: 3,
+            focus: 'center',
+          }}
+        >
+          {countArray.map((index) => (
+            <SplideSlide
+              key={`${name}${index}`}
+              className="align-middle p-5 h-[40vh]"
+            >
+              <div className="mt-10 mb-10 h-[80%]">
+                <Image
+                  className="h-[100%] w-[100%] rounded-lg"
+                  src={`/projects/${name}/${name}-${index}.png`}
+                  alt={`Image ${index} from ${name}.`}
+                  width="1000"
+                  height="1000"
+                />
+              </div>
+            </SplideSlide>
+          ))}
+        </Splide>
+      )}
+    </>
   )
 }
 
