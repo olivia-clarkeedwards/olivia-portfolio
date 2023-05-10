@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import Headshot from '../public/Headshot.png'
+import Headshot from '../public/profile/Headshot.png'
 
 function Header() {
   return (

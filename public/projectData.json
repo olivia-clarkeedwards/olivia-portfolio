@@ -12,7 +12,9 @@
    "softSkills": ["decision making", "teamwork", "leadership", "product management", "conflict resolution", "working to deadline", "prioritising"],
     "conceptualLearning": ["many-to-many relationships", "google APIs", "styling in react native", "using props with components"],
     "tech": ["TypeScript", "Node.js", "React Native", "Expo", "Superagent", "RESTful APIs", "GooglePlacesAPI", "Express", "Sqlite3 with Knex", "Supertest", "Jest", "Dokku" ]
-  ,  "link": "https://github.com/olivia-clarkeedwards/pingpong"},
+  ,  "link": "https://github.com/olivia-clarkeedwards/pingpong",
+  "imageDetails" : {"name": "pingpong", "numberOfImages": 7}},
+ 
   {
     "title": "SHOW ME THE MONEY",
     "date": "April 2023",
@@ -23,7 +25,8 @@
     "softSkills":["leadership", "communication", "Agile methodologies", "team management", "self-direction"],
     "conceptualLearning":["many-to-many relationships", "data structures"],
     "tech": ["TypeScript", "Sqlite3 with Knex", "Express", "RESTful APIs"],
-    "link": "https://github.com/olivia-clarkeedwards/show-me-the-money"
+    "link": "https://github.com/olivia-clarkeedwards/show-me-the-money",
+    "imageDetails" : {"name": "showmethemoney", "numberOfImages": 1}
   },
   {
     "title": "A NOT-SO-LONELY CHRISTMAS",
@@ -35,6 +38,7 @@
     "softSkills": ["communication", "teamwork"],
     "conceptualLearning":[],
     "tech": ["Express", "Express Handlebars", "Sqlite3 with Knex", "Jest", "nodemon"],
-    "link": "https://github.com/olivia-clarkeedwards/not-lonely-xmas"
+    "link": "https://github.com/olivia-clarkeedwards/not-lonely-xmas",
+    "imageDetails" : {"name": "notlonelyxmas", "numberOfImages": 5}
   }
 ]
