@@ -16,11 +16,11 @@ function GalleryDisplay({ name, numberOfImages }: Props) {
     <>
       {countArray.map((index) => (
         <Image
-          className="h-[200px] w-auto"
+          className="h-[40vh] w-auto"
           src={`/projects/${name}/${name}-${index}.png`}
           alt={name}
-          width="478"
-          height="478"
+          width="1000"
+          height="1000"
           key={`${name}${index}`}
         />
       ))}
