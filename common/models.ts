@@ -13,4 +13,5 @@ export interface Project {
   conceptualLearning: string[]
   tech: string[]
   link: string
+  imageDetails: { name: string; numberOfImages: number }
 }

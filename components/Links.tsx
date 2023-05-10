@@ -16,7 +16,7 @@ function Links() {
       <a
         download
         className="flex justify-center items-center"
-        href="/OliviasResumeApril2023.pdf"
+        href="/profile/OliviasResumeApril2023.pdf"
       >
         <RxDoubleArrowRight color="zinc-500" />
         <p className="ml-2">Download CV</p>
