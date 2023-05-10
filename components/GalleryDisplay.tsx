@@ -6,16 +6,25 @@ interface Props {
 }
 
 function GalleryDisplay({ name, numberOfImages }: Props) {
+  let countArray = []
+
+  for (let i = 1; i <= numberOfImages; i++) {
+    countArray.push(i)
+  }
+
   return (
-    <div>
-      <Image
-        className="h-[200px] w-auto"
-        src={`/projects/${name}/${name}-1.png`}
-        alt="Ping pong"
-        width="478"
-        height="478"
-      />
-    </div>
+    <>
+      {countArray.map((index) => (
+        <Image
+          className="h-[200px] w-auto"
+          src={`/projects/${name}/${name}-${index}.png`}
+          alt={name}
+          width="478"
+          height="478"
+          key={`${name}${index}`}
+        />
+      ))}
+    </>
   )
 }
 
