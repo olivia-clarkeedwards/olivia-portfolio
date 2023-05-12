@@ -30,22 +30,21 @@ function GalleryDisplay({ name, numberOfImages }: Props) {
           options={{
             rewind: true,
             rewindByDrag: true,
-            perPage: 3,
             focus: 'center',
+            autoHeight: true,
+            perPage: 2,
+            maxWidth: '40%',
           }}
         >
           {countArray.map((index) => (
-            <SplideSlide
-              key={`${name}${index}`}
-              className="align-middle p-5 h-[40vh]"
-            >
-              <div className="mt-10 mb-10 h-[80%]">
+            <SplideSlide key={`${name}${index}`}>
+              <div className="m-2 mt-10 mb-10">
                 <Image
-                  className="h-[100%] w-[100%] rounded-lg"
+                  className="w-auto rounded-lg"
                   src={`/projects/${name}/${name}-${index}.png`}
                   alt={`Image ${index} from ${name}.`}
                   width="1000"
-                  height="1000"
+                  height="700"
                 />
               </div>
             </SplideSlide>

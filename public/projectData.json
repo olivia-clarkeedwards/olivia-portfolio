@@ -39,6 +39,6 @@
     "conceptualLearning":[],
     "tech": ["Express", "Express Handlebars", "Sqlite3 with Knex", "Jest", "nodemon"],
     "link": "https://github.com/olivia-clarkeedwards/not-lonely-xmas",
-    "imageDetails" : {"name": "notlonelyxmas", "numberOfImages": 5}
+    "imageDetails" : {"name": "notlonelyxmas", "numberOfImages": 4}
   }
 ]
