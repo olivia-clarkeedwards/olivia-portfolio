@@ -13,7 +13,7 @@
     "conceptualLearning": ["many-to-many relationships", "google APIs", "styling in react native", "using props with components"],
     "tech": ["TypeScript", "Node.js", "React Native", "Expo", "Superagent", "RESTful APIs", "GooglePlacesAPI", "Express", "Sqlite3 with Knex", "Supertest", "Jest", "Dokku" ]
   ,  "link": "https://github.com/olivia-clarkeedwards/pingpong",
-  "imageDetails" : {"name": "pingpong", "numberOfImages": 7}},
+  "imageDetails" : {"name": "pingpong", "numberOfImages": 5}},
  
   {
     "title": "SHOW ME THE MONEY",
@@ -39,6 +39,6 @@
     "conceptualLearning":[],
     "tech": ["Express", "Express Handlebars", "Sqlite3 with Knex", "Jest", "nodemon"],
     "link": "https://github.com/olivia-clarkeedwards/not-lonely-xmas",
-    "imageDetails" : {"name": "notlonelyxmas", "numberOfImages": 4}
+    "imageDetails" : {"name": "notlonelyxmas", "numberOfImages": 5}
   }
 ]
