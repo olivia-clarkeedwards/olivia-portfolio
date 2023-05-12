@@ -32,7 +32,7 @@ function GalleryDisplay({ name, numberOfImages }: Props) {
             rewindByDrag: true,
             focus: 'center',
             autoHeight: true,
-            perPage: 2,
+            perPage: 3,
             maxWidth: '40%',
           }}
         >
@@ -41,7 +41,7 @@ function GalleryDisplay({ name, numberOfImages }: Props) {
               <div className="m-2 mt-10 mb-10">
                 <Image
                   className="w-auto rounded-lg"
-                  src={`/projects/${name}/${name}-${index}.png`}
+                  src={`/projects/${name}/${name}-${index}a.png`}
                   alt={`Image ${index} from ${name}.`}
                   width="1000"
                   height="700"
